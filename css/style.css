@@ -5,12 +5,23 @@ body{
     align-items: center;
     justify-content: flex-start;
     padding: 5rem;
-
     .container{
+        font-family: 'Poppins';
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-    
+        max-width: 500px;
     }
+}
+h3{
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+form{
+    margin-bottom: 2rem;
+}
+.result{
+    margin-bottom: 4rem;
 }
